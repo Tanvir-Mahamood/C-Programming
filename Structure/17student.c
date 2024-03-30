@@ -1,3 +1,7 @@
+/*
+Enter Students information. Then find the information by giving name only
+*/
+
 #include <stdio.h>
 #include <string.h>
 struct student

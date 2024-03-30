@@ -1,3 +1,7 @@
+/*
+Enter information of 3 books and print them.
+*/
+
 #include <stdio.h>
 
 struct Book
@@ -19,7 +23,7 @@ int main()
 {
     struct Book b1,b2,b3;
     printf("%d",sizeof(b1));
-    printf("Enter the number of first book:");
+    printf("Enter the book-number of first book:");
     scanf("%d",&b1.bookno);
     printf("price=");
     scanf("%f",&b1.price);
@@ -27,14 +31,14 @@ int main()
     gets(b1.author);
     //scanf("%s",b1.author);
 
-    printf("Enter the number of second book:");
+    printf("Enter the book-number of second book:");
     scanf("%d",&b2.bookno);
     printf("price=?");
     scanf("%f",&b2.price);
     printf("Who is the author:");
     gets(b2.author);
 
-    printf("Enter the number of third book:");
+    printf("Enter the book-number of third book:");
     scanf("%d",&b3.bookno);
     printf("price=?");
     scanf("%f",&b3.price);

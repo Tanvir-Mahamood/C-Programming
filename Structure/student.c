@@ -1,3 +1,7 @@
+/*
+Enter 5 Students information. Find the student with highest CGPA
+*/
+
 #include <stdio.h>
 
 struct student

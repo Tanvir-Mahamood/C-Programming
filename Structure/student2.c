@@ -27,7 +27,7 @@ int main()
 {
     struct student s[5];
     s[5].roll={2003061,2003062,2003063,2003064,2003065};
-    s[6].name={"mim","tanvir","foyez","asif","sefat"};
+    s[5].name={"mim","tanvir","foyez","asif","sefat"};
     s[5].gpa={3.98,3.78,3.97,3.98,3.99};
     search(s);
     return 0;

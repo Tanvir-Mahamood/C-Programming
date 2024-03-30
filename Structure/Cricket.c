@@ -1,3 +1,7 @@
+/*
+Cricket Score Board
+*/
+
 #include <stdio.h>
 
 struct Cricketer

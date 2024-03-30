@@ -1,3 +1,7 @@
+/*
+Enter Students information. Then print all information
+*/
+
 #include <stdio.h>
 #include <string.h>
 struct student
